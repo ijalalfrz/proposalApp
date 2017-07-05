@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proposal App</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/bulma.css">
+  <style type="text/css">
+    .banner{
+      background-image: url('assets/img/back.jpg');
+      background-size: cover;
+      min-height: 550px;
+    }
+    .bigtitle{
+      font-size: 50pt;
+    }
+    .hero h1,.hero h2{
+        text-shadow: 2px 1px #666;
+    }
+    .gradient-c{
+      background: rgba(0,138,117,1);
+      background: -moz-linear-gradient(left, rgba(0,138,117,1) 0%, rgba(65,235,210,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,138,117,1)), color-stop(100%, rgba(65,235,210,1)));
+      background: -webkit-linear-gradient(left, rgba(0,138,117,1) 0%, rgba(65,235,210,1) 100%);
+      background: -o-linear-gradient(left, rgba(0,138,117,1) 0%, rgba(65,235,210,1) 100%);
+      background: -ms-linear-gradient(left, rgba(0,138,117,1) 0%, rgba(65,235,210,1) 100%);
+      background: linear-gradient(to right, rgba(0,138,117,1) 0%, rgba(65,235,210,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008a75', endColorstr='#41ebd2', GradientType=1 );
+    }
+  </style>
+</head>
+<body>
+<nav class="nav has-shadow">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item">
+        <b>ProposalApp</b>
+        <!-- <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo"> -->
+      </a>
+    </div>
+    <span class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div id="nav-menu" class="nav-right nav-menu">
+      <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
+      <a class="nav-item is-tab is-hidden-tablet">Features Tour</a>
+      <a class="nav-item is-tab is-hidden-tablet">Template Gallery</a>
+      <a class="nav-item is-tab is-hidden-tablet">About</a>
+<!--       <a class="nav-item is-tab">
+        <figure class="image is-16x16" style="margin-right: 8px;">
+          <img src="http://bulma.io/images/jgthms.png">
+        </figure>
+        Profile
+      </a> -->
+      <a class="nav-item is-tab is-hidden-mobile is-active">Home</a>
+      <a class="nav-item is-tab is-hidden-mobile">Features Tour</a>
+      <a class="nav-item is-tab is-hidden-mobile">Template Gallery</a>
+      <a class="nav-item is-tab is-hidden-mobile">About</a>
+      <a class="nav-item is-tab">Log In</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero banner">
+  <div class="hero-body">
+    <div class="container" >
+      <br>
+      <br>
+      <br>
+      <h1 style="color:#fff" class="bigtitle">Edit, send & sign PDFs <br>online for free.</h1>
+      <h2 style="color:#fff" class="title is-1">
+       Document workflow, simplified.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-bottom: 1px dashed #ddd ">
+  <div class="container" style="text-align: center;">
+    <h1 class="title">
+     Streamline document signing, distribution and form completion.
+    </h1  >
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns ">
+      <div class="column is-5" style="line-height: 1.5">
+        <h1 class="title">Templates</h1>
+        <h2 class="subtitle">Simplify document distribution and organization.</h2>
+        <p style="font-weight: 300">
+          Accelerate the document signing process for you, your clients, your employees or your students with . Legally binding eSignatures are easy to create and apply. Tedious workflows, such as getting a document signed by multiple recipients, are also easily streamlined with Sign Request features.
+        </p>
+      </div>
+      <div class="column is-7">
+        <img src="assets/img/prev.gif">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section gradient-c">
+  <div class="container" style="text-align: center;">
+    <h1 class="title" style="color:#fff">
+     Trusted by over 18.8 million users and 76.4 million documents
+    </h1  >
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column" >
+        <div class="content has-text-centered">
+          <p style="font-weight: 350">
+
+            <a href="">Home</a><br>
+            <a href="">Feature Tour</a><br>
+            <a href="">Template Gallery</a><br>
+            <a href="">About</a><br>
+            <a href="">Log In</a><br>
+          </p>
+        </div>
+
+      </div>
+      <div class="column">
+        <div class="content has-text-centered">
+          <p style="font-weight: 350">
+          ProposalApp<br>Jl. Setrasari Kulon II No.2, Sukarasa, Sukasari, Kota Bandung<br>Jawa Barat 40152<br>
+          <a href="">support@proposalapp.com</a>
+          </p>
+          <p style="font-weight: 300;font-size: 10pt">
+            ProposalApp v0.0.1 © 2017 by Dycode.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content has-text-centered">
+          Release Notes<br>
+          New features- Send via Gmail and Smooth Signatures. Fixed- snap to grid, copy/paste in IE, and more. <br>
+          14 days ago
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+<script type="text/javascript" src="assets/js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+<script type="text/javascript" src="assets/js/Chart.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
+<script type="text/javascript" src="assets/js/bulma.js"></script>
+</html>
